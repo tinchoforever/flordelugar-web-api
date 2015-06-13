@@ -1,0 +1,17 @@
+config/private--*
+public/third-party
+node_modules
+public/.sass-cache
+.bower-registry
+.bower-tmp
+.bower-cache
+public/init-build.js
+public/vr-portal/assets/css
+public/vr-portal/assets/javascript
+.*.swp
+.*.swo
+nodemon.json
+uploads
+**/.DS_Store
+.tmp
+visuals
