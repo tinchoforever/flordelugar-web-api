@@ -3,13 +3,13 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', 
     {
       templateUrl: '/scripts/ng/partials/search.html', 
-      controller: 'SearchController'
+      controller: 'HomeController'
     });
   
   $routeProvider.when('/recorrido/:id', 
     {
       templateUrl: '/scripts/ng/partials/clientes.html', 
-      controller: 'ClientController'
+      controller: 'RecorridosController'
     });
   
    $routeProvider.otherwise('/');
@@ -17,20 +17,20 @@ config(['$routeProvider', function($routeProvider) {
 myApp.run(function(amMoment) {
     amMoment.changeLocale('es');
 });
-myApp.controller('SearchController', function($scope,$rootScope,$location, $http){
+myApp.controller('HomeController', function($scope,$rootScope,$location, $http){
 
-      var url = '/api/clients/all';
+      var url = '/json/venues.json';
         $http.get(url).success(function(data) {
           console.log(data);
-        $scope.clients = data;
+        $scope.recorridos = data;
       });
-        $scope.gotoClient = function(c){  
-          $location.path("/cliente/" + c.id);
+        $scope.gotoRecorrido = function(c){  
+          $location.path("/recorrido/" + c.id);
         };
 
     
 });
-myApp.controller('ClientController', function($scope,$rootScope,$routeParams, $location, $http){
+myApp.controller('RecorridosController', function($scope,$rootScope,$routeParams, $location, $http){
 
 
       var url = '/api/clients/'+ $routeParams.id;

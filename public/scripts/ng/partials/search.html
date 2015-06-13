@@ -6,10 +6,11 @@
 			></autocomplete>
 	<div class="client-row" ng-repeat="c in recorridos | filter:seleccion">
 				<div class="client-lineup-container wow fadeIn animated">
-					<div ng-click="gotoClient(c)" class="hand client-lineup"><img src="" ng-src="{{c.logo}}"/>
+					<div ng-click="gotoClient(c)" class="hand client-lineup">
+						<img src="" ng-src="{{c.assets.image}}"/>
 					</div>
 					<div class="centered">
-						<a class="black" ng-click="gotoClient(c)" href="">{{c.nombre | limitTo:20}}</a>
+						<a class="black" ng-click="gotoRecorrido(c)" href="">{{c.name | limitTo:20}}</a>
 					</div>
 				</div>
 				<div class="buffer"></div>
