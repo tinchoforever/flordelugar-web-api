@@ -1,11 +1,11 @@
 {
-	"categorias": {
+	"categorias": [{
 			"id": "1",
 			"name": "Arquitectura"
 		},{
 			"id": "2",
 			"name": "Cultura"
-		,{
+		},{
 			"id": "3",
 			"name": "Gastronomía"
 		},{
@@ -20,6 +20,5 @@
 		},{
 			"id": "7",
 			"name": "Curiosidades"
-		}
-	}
+		}]
 }
