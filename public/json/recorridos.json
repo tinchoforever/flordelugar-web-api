@@ -1,0 +1,48 @@
+[
+	{
+		"id": 1,
+		"name": "Arquitectura Recoleta",
+		"description": "El recorrido del Barrio de Recoleta. ",
+		"total_km": 2.5,
+		"conversion": [{
+			"emisiones": 50,
+			"ahorro_trasnporte": "$ 10",
+			"calorias_caminata": 75,
+			"calorias_bici": 120
+		}],
+		"tipo": 1,
+		"venues": [4, 5, 1, 8, 9, 2 ,7, 6, 3]
+	},	
+	{
+		"id": 2,
+		"name": "Recorrido Sugerido para puntos Culturales",
+		"description": "Sitios Culturales del Barrio de Recoleta",
+		"total_km": 1.6,
+		"conversion": [{
+			"emisiones": 50,
+			"ahorro_trasnporte": "$ 10",
+			"calorias_caminata": 75,
+			"calorias_bici": 120
+		}],
+		"calorias_caminar": 75,
+		"calorias_bici": 120,
+		"tipo": 1,
+		"venues": [4, 5, 1, 9,2, 7]
+	},
+	{
+		"id": 3,
+		"name": "Recorrido 3",
+		"description": "Recorrido Sugerido para puntos Iconicos",
+		"total_km": 5,
+		"conversion": [{
+			"emisiones": 50,
+			"ahorro_trasnporte": "$ 10",
+			"calorias_caminata": 75,
+			"calorias_bici": 120
+		}],
+		"calorias_caminar": 275,
+		"calorias_bici": 420,
+		"tipo": 1,
+		"venues": [1, 9, 2, 7, 3]
+	}
+]
