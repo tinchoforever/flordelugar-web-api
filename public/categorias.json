@@ -1,0 +1,25 @@
+{
+	"categorias": {
+			"id": "1",
+			"name": "Arquitectura"
+		},{
+			"id": "2",
+			"name": "Cultura"
+		,{
+			"id": "3",
+			"name": "Gastronomía"
+		},{
+			"id": "4",
+			"name": "Historia"
+		},{
+			"id": "5",
+			"name": "Icónico"
+		},{
+			"id": "6",
+			"name": "Religión"
+		},{
+			"id": "7",
+			"name": "Curiosidades"
+		}
+	}
+}
