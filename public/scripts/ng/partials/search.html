@@ -7,7 +7,7 @@
 	<div class="client-row" ng-repeat="c in recorridos | filter:seleccion">
 				<div class="client-lineup-container wow fadeIn animated">
 					<div ng-click="gotoClient(c)" class="hand client-lineup">
-						<img src="" ng-src="{{c.assets.image}}"/>
+						<img src="" ng-src="{{c.assets.streetView}}"/>
 					</div>
 					<div class="centered">
 						<a class="black" ng-click="gotoRecorrido(c)" href="">{{c.name | limitTo:20}}</a>
