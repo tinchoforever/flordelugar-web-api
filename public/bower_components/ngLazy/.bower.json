@@ -1,0 +1,37 @@
+{
+  "name": "ngLazy",
+  "version": "0.1.41",
+  "authors": [
+    "Adam D Richman <ar@adamrichman.com>"
+  ],
+  "description": "Lazy-loading and infinite scroll library for AngularJS",
+  "main": "src/ngLazy.js",
+  "keywords": [
+    "lazy",
+    "load",
+    "infinite",
+    "scroll",
+    "angular",
+    "directive"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/adrichman/ngLazy",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.1.41",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.41",
+    "commit": "e66666f47f72b22c53e9e12cd2b286be2957389d"
+  },
+  "_source": "git://github.com/adrichman/ngLazy.git",
+  "_target": "~0.1.41",
+  "_originalSource": "ngLazy",
+  "_direct": true
+}
