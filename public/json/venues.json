@@ -1,0 +1,62 @@
+[{
+  "id": "557c3d56498e42723d91f5b3",
+    "name": "Basilica Nuestra Señora del Pilar",
+    "location": {
+    "lat": -34.586544,
+    "lon": -58.391874,
+    "city": "CABA",
+    "state": "Buenos Aires",
+    "neighborhood": "Recoleta",
+    "comuna": 2
+  },
+  "description": "Su fachada respeta los principios clasicistas y cuenta en el lateral derecho con una doble espadaña, única en la Ciudad. La capilla lateral izquierda alberga la imagen de San Pedro Alcántara, fundador de la orden de los recoletos. Aún se conservan numerosos elementos de culto de los primeros monjes que se exhiben en un pequeño museo ubicado junto a la iglesia. Fue elevada al rango de Basílica por el Papa Pío XI y, posteriormente, declarada Monumento Histórico Nacional en 1942. Nota de accesibilidad: dentro de la Basílica pueden visitarse los claustros históricos pero estos no son accesibles para personas con discapacidad motora. Dirección: Junín 1904",
+    "assets": {
+    "image": "link",
+    "audio": "link"
+  },
+  "tags": [
+    {
+      "id": "1",
+      "name": "Arquitectura"
+    },
+    {
+      "id": "557c3d56498e42723d91f5b3",
+      "name": "Histórico"
+    }
+  ]
+},
+{
+  "id": "557c3d56398e42723d91f6b3",
+  "name": "Biblioteca Nacional",
+  "location": {
+  "lat": -34.5843977,
+  "lon": -58.3983631,
+  "city": "buenos Aires",
+  "state": "Buenos Aires",
+  "neighborhood":"Recoleta",
+  "comuna": 2
+  },
+  "description": "Las piezas más valiosas de la Biblioteca se hallan en la Sala del Tesoro, que reúne once mil volúmenes, de los cuales la mayoría pertenece a los siglos XVI y XVII. El actual edificio fue proyectado por el arquitecto Clorindo Testa en colaboración con Alicia Cazzaniga y Francisco Bullrich. Cuenta con seis pisos, nueve salas de lectura con una capacidad total de 940 lectores, un auditorio y una Escuela de Bibliotecarios. En 1998 fue inaugurada la Plaza del Lector, un espacio equipado con bancos para doscientas personas, música funcional, fuentes y un servicio de biblioteca abierta que ofrece a los visitantes libros y periódicos del día. Dirección: Agüero 2502",
+  "assets": {
+    "image": "link",
+    "audio": "link"
+  },
+  "tags": [
+    {
+      "id": "557c3d56498e42723d91f5b3",
+      "name": "Arquitectura"
+    },
+    {
+      "id": "557c3d56498e42723d91f5b3",
+      "name": "Histórico"
+    },
+    {
+      "id": "557c3d56498e42723d91f5b3",
+      "name": "Cultura"
+    },
+    {
+      "id": "557c3d56498e42723d91f5b3",
+      "name": "Iconico"
+    }
+  ]
+}]
