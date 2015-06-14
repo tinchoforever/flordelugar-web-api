@@ -1,14 +1,16 @@
 <div class="header wow fadeIn animated centered">
 	<h1>Caminar Buenos Aires</h1>
 	
+	<h4>Ir de un lugar a otro debe ser una experiencia saludable, 
+	optimiza tus  los tiempos del traslado y encontrá alternativas a tus trayectos descubriendo nuevas <strong> historias</strong>.<h4>
 
+	<h2><strong> Bajate la app </strong> </h2>
 
 	<hr/>
 </div>
 
 <div class="wow fadeIn animated centered">
-	<h3>Proba alguno de los recorridos</h3>
-	
+	<h3>Estos son los recorridos disponibles</h3>
 </div>
 <autocomplete class="search-bar" 
 	ng-model="seleccion"
@@ -21,7 +23,7 @@
 		<div class="description">
 			<h3>
 				<a class="white" ng-click="gotoRecorrido(c)" href="">{{c.name}}</a>
-
+				<small>{{c.name}} </small>
 			</h3>
 			<h5> {{c.total_timepo}} min |  {{c.total_km}} kms </h5> 
 		</div>

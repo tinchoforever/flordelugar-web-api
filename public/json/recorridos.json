@@ -5,6 +5,10 @@
 		"description": "El recorrido del Barrio de Recoleta. ",
 		"total_km": 2.5,
 		"total_timepo": 30,
+		"assets": {
+		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
+		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
+		},
 		"conversion": {
 			"emisiones": 50,
 			"ahorro_trasnporte": "$ 10",
@@ -20,6 +24,10 @@
 		"description": "Sitios Culturales del Barrio de Recoleta",
 		"total_km": 1.6,
 		"total_timepo": 30,
+		"assets": {
+		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
+		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
+		},
 		"conversion": {
 			"emisiones": 80,
 			"ahorro_trasnporte": "$ 10",
@@ -35,6 +43,14 @@
 		"description": "Recorrido Sugerido para puntos Iconicos",
 		"total_km": 5,
 		"total_timepo": 30,
+		"assets": {
+		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
+		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
+		},
+		"assets": {
+		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
+		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
+		},
 		"conversion": {
 			"emisiones": 150,
 			"ahorro_trasnporte": "$ 10",
@@ -46,10 +62,15 @@
 	},
 	{
 		"id": 4,
+
 		"name": "Palacios del Barrio de Monserrat",
 		"description": "Palacios de Buenos Aires - Comuna 1, Monserrat",
 		"total_km": 5,
 		"total_timepo": 30,
+		"assets": {
+		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
+		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
+		},
 		"conversion": {
 			"emisiones": 150,
 			"ahorro_trasnporte": "$ 10",
@@ -65,6 +86,10 @@
 		"description": "Palacios de Buenos Aires - Retiro y Recoleta",
 		"total_km": 5,
 		"total_timepo": 30,
+		"assets": {
+		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
+		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
+		},
 		"conversion": {
 			"emisiones": 150,
 			"ahorro_trasnporte": "$ 10",
@@ -80,6 +105,10 @@
 		"description": "Palacios de Buenos Aires - Palermo y Balvanera",
 		"total_km": 5,
 		"total_timepo": 30,
+		"assets": {
+		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
+		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
+		},
 		"conversion": {
 			"emisiones": 150,
 			"ahorro_trasnporte": "$ 10",

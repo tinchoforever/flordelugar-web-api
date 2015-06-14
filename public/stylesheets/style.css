@@ -12,11 +12,18 @@ body{
 	padding-bottom:1em;
 
 }
+.header h4{
+	
+	font-size: 1em;
+	text-transform: none;
+
+}
 hr{
 	text-align: center;
 	width: 30%;
 	margin-bottom: 2em;
 }
+
 text {
 	color: black;
 }
