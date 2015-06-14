@@ -76,3 +76,15 @@ Equipo
 - Sol Mountford - Gerente Promoción Movilidad Saludable
 - Paula Bisiau - Directora de Movilidad Saludable
 
+
+Backlog
+=====
+
+Ayudanos a hacer los proximos pasos
+
+- Necesitamos crear mas capitulos.
+- HyperLocal > Bajarse la info directamente en los barrios por BAWifi
+- Compositor > App para documentar historias.
+- TIPS > Como caminar
+- Audios inspiracionales informativos.
+- CMS para curar las historias enviadas.
