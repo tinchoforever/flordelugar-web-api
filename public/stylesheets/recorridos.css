@@ -1,0 +1,34 @@
+html,body {
+    text-align: center;
+    margin: 0; padding: 0;
+    font-family: Georgia;
+    background: #EEE;
+    height: 100%;
+  }
+#map { width: 100%; height: 100%}; 
+
+.odyssey-popup-lateral 
+.leaflet-popup-content-wrapper {
+  background: none;
+  box-shadow:none;
+  text-align: left;
+  border-top: 3px solid #000;
+  border-radius: 0;
+}
+.odyssey-popup-lateral 
+.leaflet-popup-tip-container {
+  display:none;
+}
+
+.odyssey-popup-lateral 
+.leaflet-popup-content {
+  margin: 0;
+}
+
+img{
+  width: 100%;
+}
+
+#error{
+  display: none;
+}
