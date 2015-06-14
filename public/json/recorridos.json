@@ -26,8 +26,8 @@
 		"total_km": 1.6,
 		"total_timepo": 30,
 		"comuna": "Recoleta",
-		"assets": {
-		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
+		"assets": { 
+		    "image": "http://caminando.herokuapp.com/fotos/centro_cultural_recoleta.jpg",
 		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
 		},
 		"conversion": {
@@ -47,11 +47,7 @@
 		"total_km": 5,
 		"total_timepo": 30,
 		"assets": {
-		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
-		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
-		},
-		"assets": {
-		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
+		    "image": "http://caminando.herokuapp.com/fotos/palais_glace.jpg",
 		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
 		},
 		"conversion": {
@@ -71,7 +67,7 @@
 		"total_timepo": 30,
 		"comuna": "Monserrat",
 		"assets": {
-		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
+		    "image": "http://caminando.herokuapp.com/fotos/palacio_congreso.jpg",
 		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
 		},
 		"conversion": {
@@ -91,7 +87,7 @@
 		"total_timepo": 30,
 		"comuna": "Retiro",
 		"assets": {
-		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
+		    "image": "http://caminando.herokuapp.com/fotos/palacio_san_martin.jpg",
 		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
 		},
 		"conversion": {
@@ -111,7 +107,7 @@
 		"total_km": 5,
 		"total_timepo": 30,
 		"assets": {
-		    "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
+		    "image": "http://caminando.herokuapp.com/fotos/palacio_duhau.jpg",
 		    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
 		},
 		"conversion": {
