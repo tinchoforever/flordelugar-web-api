@@ -58,7 +58,10 @@ var defaultIcon = L.icon({
           .setLatLng(pos)
           .setContent(
             "<h1>" + stop.name + "</h1>" + 
-            "<p>" + stop.description + "</p>")
+            "<img src='" +  stop.assets.image+ "'></img>" +
+            "<audio autoplay src='" + stop.assets.audio+ "'></audio>"+
+            "<p>" + stop.description + "</p>"
+            )
           .actions.openClose(map)
 
       );
