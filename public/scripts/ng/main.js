@@ -19,19 +19,17 @@ myApp.run(function(amMoment) {
 });
 myApp.controller('HomeController', function($scope,$rootScope,$location, $http){
 
-      var url = '/json/venues.json';
+      var url = '/json/recorridos.json';
         $http.get(url).success(function(data) {
           console.log(data);
           for (var i = 0; i < data.length; i++) {
             var d = data[i]; 
-            d.assets.googleMaps = "https://maps.googleapis.com/maps/api/staticmap?center="+ d.location.lat + ","+ d.location.on + "&zoom=14&size=200x200";
-            d.assets.googleMaps+= "&markers=color:blue%7Clabel:C%7C" + d.location.lat +  "," + d.location.lon;
-            d.assets.streetView = "https://maps.googleapis.com/maps/api/streetview?size=200x200&location=" + d.location.lat + ","+ d.location.lon + "&heading=100"
+            
           };
         $scope.recorridos = data;
       });
         $scope.gotoRecorrido = function(c){  
-          $location.path("/recorrido/" + c.id);
+          window.location = "/recorridos/" + c.id;
         };
 
     
