@@ -287,7 +287,7 @@
   },
   "description": "Nació en una época de bienestar económico, cuando se decidió abastecer a la Capital de una red de agua corriente de avanzada. Su fachada es lo más conocido y admirado: el revestimiento fue realizado en 130 mil ladrillos esmaltados y 300.000 piezas de cerámica importados de Bélgica e Inglaterra. En su interior se puede visitar el Museo del Patrimonio Histórico.",
     "assets": {
-    "image": "link",
+    "image": "http://caminando.herokuapp.com/fotos/palacio_aguas.jpg",
     "audio": "link"
   },
   "tags": [
@@ -315,7 +315,7 @@
   },
   "description": "Es uno de los congresos más grandes del mundo. El estilo de la obra es un eclecticismo grecorromano. El edificio se distingue por su cúpula, que alcanza los 80 metros de altura y por el fondo que ofrece a la Avenida de Mayo, donde se yergue soberbio, con sus proporciones perfectas y un aspecto de magnificencia severa y elegante.",
     "assets": {
-    "image": "link",
+    "image": "http://caminando.herokuapp.com/fotos/palacio_congreso.jpg",
     "audio": "link"
   },
   "tags": [
@@ -343,7 +343,7 @@
   },
   "description": "Tiene una torre de 97 metros de altura y una particularidad que lo hace único: un reloj comando de melodía Westminster, con un carrillón de cinco campanas. El reloj controla la marcha de otros 80 relojes distribuidos en el resto del edificio. Se suma a este otro carillón que tiene 30 campanas.",
     "assets": {
-    "image": "link",
+    "image": "http://caminando.herokuapp.com/fotos/palacio_legislatura.jpg",
     "audio": "link"
   },
   "tags": [
@@ -371,7 +371,7 @@
   },
   "description": "Para los amantes de la arquitectura, es una verdadera joya: el edificio está lleno de analogías y referencias a la Divina Comedia. El documental “El Rascacielos Latino” (estrenado en 2013), analiza estas curiosidades.",
     "assets": {
-    "image": "link",
+    "image": "http://caminando.herokuapp.com/fotos/Palacio_Barolo.jpg",
     "audio": "link"
   },
   "tags": [
@@ -399,7 +399,7 @@
   },
   "description": "Este edificio, asiento del Poder Ejecutivo del Gobierno de la Ciudad, fue construido entre 1891 y 1902 conforme al proyecto de Juan Buschiazzo y la dirección de Juan María Cagnoni, dos arquitectos italianos. El primero fue director de Obras Públicas de la Municipalidad porteña y uno de los artífices de las reformas urbanísticas de fines del siglo XIX. El estilo del edificio es academicista francés con presencia de elementos italianizantes.",
     "assets": {
-    "image": "link",
+    "image": "http://caminando.herokuapp.com/fotos/palacio_municipal.jpg",
     "audio": "link"
   },
   "tags": [
@@ -427,7 +427,7 @@
   },
   "description": "El palacio responde a líneas neoclásicas de influencia francesa. Está absolutamente inspirado en el Chateau du Marais (cerca de París). Hasta hace poco vivieron hasta los descendientes de la familia Duhau, una familia tradicional de estancieros argentinos. En la actualidad funciona como un importante hotel cinco estrellas",
     "assets": {
-    "image": "link",
+    "image": "http://caminando.herokuapp.com/fotos/palacio_duhau.jpg",
     "audio": "link"
   },
   "tags": [
@@ -455,7 +455,7 @@
   },
   "description": "Actualmente pertenece a la Santa Sede y funciona la sede de la Nunciatura Apostólica. ¿Una curiosidad? Fue la residencia del papa Juan Pablo II durante sus dos visitas a Buenos Aires, en 1982 y 198. También responde a líneas francesas pero con acercamientos al art nouveau.",
     "assets": {
-    "image": "link",
+    "image": "http://caminando.herokuapp.com/fotos/palacio_anchorena.jpg",
     "audio": "link"
   },
   "tags": [
@@ -472,7 +472,7 @@
 ,
 {
   "id": 17,
-    "name": "Palacio Pizurno",
+    "name": "Palacio Pizzurno",
     "location": {
     "lat": -34.598096,
     "lon": -58.391154,
@@ -483,7 +483,7 @@
   },
   "description": "El Palacio Sarmiento, más conocido como Palacio Pizzurno, es un Monumento Histórico Nacional de la Argentina, sede del Ministerio de Educación de la Nación y de la Biblioteca Nacional de Maestros. Se lo conoce popularmente con el nombre de la calle sobre la cual está ubicado. Está localizado en Buenos Aires.",
     "assets": {
-    "image": "link",
+    "image": "http://caminando.herokuapp.com/fotos/palacio_pizzurno.jpg",
     "audio": "link"
   },
   "tags": [
@@ -511,7 +511,7 @@
   },
   "description": "El palacio Estrugamou es un edificio de viviendas de la ciudad de Buenos Aires de 1924, un hito arquitectónico de la arquitectura señorial de la primera mitad del siglo XX en el barrio de Retiro.",
     "assets": {
-    "image": "link",
+    "image": "http://caminando.herokuapp.com/fotos/palacio_estrugamou.jpg",
     "audio": "link"
   },
   "tags": [
@@ -539,7 +539,7 @@
   },
   "description": "valioso testimonio del nivel alcanzado por la arquitectura del clasicismo francés y la adaptación de tipos de residencia franceses del siglo XVIII al medio local. Además tiene enfrente a la Plaza San Martín, una de mas más lindas de la ciudad, y pueden realizarse visitas guiadas.",
     "assets": {
-    "image": "link",
+    "image": "http://caminando.herokuapp.com/fotos/palacio_san_martin.jpg",
     "audio": "link"
   },
   "tags": [
@@ -567,7 +567,7 @@
   },
   "description": "Es una de las mansiones más elegantes de la ciudad. Alberga la Academia Argentina de las Letras, la Academia Nacional de Bellas Artes, el Museo Nacional de Arte Decorativo y el Museo de Arte Oriental. Gracias a ello, es la única mansión de estilo francés abierta regularmente al público en general.",
     "assets": {
-    "image": "link",
+    "image": "http://caminando.herokuapp.com/fotos/palacio_errazuriz.jpg",
     "audio": "link"
   },
   "tags": [
