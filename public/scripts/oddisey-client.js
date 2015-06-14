@@ -1,80 +1,78 @@
-function click(el) {
-  var element = O.Core.getElement(el);
-  var t = O.Trigger();
-  element.onclick = function() {
-    t.trigger();
-  }
-  return t;
-}
+var defaultIcon = L.icon({
+      iconUrl: 'icons/circle-stroked-24.png'
+  });
 
-O.Template({
-  init: function() {
-    var seq = O.Triggers.Sequential();
+  // create a map
+  var map = L.map('map').setView([0, 0.0], 15);
+  L.tileLayer('http://tile.stamen.com/terrain-lines/{z}/{x}/{y}.png', { attribution: 'data OSM - map stamen' }).addTo(map).setOpacity(0.3);
 
-    var baseurl = this.baseurl = 'http://{s}.api.cartocdn.com/base-light/{z}/{x}/{y}.png';
-    var map = this.map = L.map('map').setView([0, 0.0], 4);
-    var basemap = this.basemap = L.tileLayer(baseurl, {
-      attribution: 'data OSM - map CartoDB'
-    }).addTo(map);
+  // create a sequential trigger
+  var seq = O.Sequential();
 
-    // enable keys to move
-    O.Keys().on('map').left().then(seq.prev, seq)
-    O.Keys().on('map').right().then(seq.next, seq)
+  // when press left mode to next
+  O.Keys().left().then(seq.prev, seq)
+  O.Keys().right().then(seq.next, seq)
 
-    click(document.getElementsByClassName('next')).then(seq.next, seq)
-    click(document.getElementsByClassName('prev')).then(seq.prev, seq)
+  // create a story 
+  var story = O.Story()
 
-    var slides = O.Actions.Slides('slides');
-    var story = O.Story()
-
-    this.story = story;
-    this.seq = seq;
-    this.slides = slides;
-    this.progress = O.UI.DotProgress('dots').count(0);
-  },
-
-  update: function(actions) {
-    if (!actions.length) return;
-    this.story.clear();
-
-    // update footer title and author
-    var title_ = actions.global.title === undefined ? '' : actions.global.title,
-        author_ = actions.global.author === undefined ? 'Using' : 'By '+actions.global.author+' using';
-
-    document.getElementById('title').innerHTML = title_;
-    document.getElementById('author').innerHTML = author_;
-    document.title = title_ + " | " + author_ +' Odyssey.js';
-
-    var sl = actions;
-
-    document.getElementById('slides').innerHTML = ''
-    this.progress.count(sl.length);
-
-    // create new story
-    for(var i = 0; i < sl.length; ++i) {
-      var slide = sl[i];
-      var tmpl = "&lt;div class='slide' style='diplay:none'&gt;"
-      tmpl += slide.html();
-      tmpl += "&lt;/div&gt;";
-      document.getElementById('slides').innerHTML += tmpl;
-
-      this.progress.step(i).then(this.seq.step(i), this.seq)
-
-      var actions = O.Parallel(
-        this.slides.activate(i),
-        slide(this),
-        this.progress.activate(i)
-      );
-
-      this.story.addState(
-        this.seq.step(i),
-        actions
-      )
+  // fetch datmy_placesa from a geojson file
+  $.getJSON('/json/venues.json', function(data) {
+    var disabledStyle = {
+        color: '#F00',
+        fillColor:   "#F00",
+        radius:      4,
+        weight:      0,
+        fillOpacity: 0.5
     }
-    this.story.go(this.seq.current());
-  },
+    var enabledStyle = {
+        color: '#F00',
+        fillColor:   "#F00",
+        radius:      8,
+        weight:      0,
+        fillOpacity: 0.8
+    }
 
-  changeSlide: function(n) {
-    this.seq.current(n);
-  }
-});
+    var positions = []
+    // load stops
+    for (var i = 0; i < data.length; ++i) {
+      var stop = data[i];
+      var pos = [stop.location.lat, stop.location.lon]
+      positions.push(pos);
+
+      // execute the actions one after another
+      var action = O.Step(
+          // move the map to the position
+          map.actions.panTo(pos),
+          // toggle style for the marker
+          L.circleMarker(pos, disabledStyle)
+            .addTo(map)
+            .actions.toggleStyle(disabledStyle, enabledStyle),
+          O.Sleep(500),
+          new L.DirectionalPopup({
+            closeButton: false,
+            className: 'odyssey-popup-lateral',
+            offset:[30, 0],
+            position: 'right'
+          })
+          .setLatLng(pos)
+          .setContent(
+            "<h1>" + stop.name + "</h1>" + 
+            "<p>" + stop.description + "</p>")
+          .actions.openClose(map)
+
+      );
+      story.addState(seq.step(i), action)
+    }
+
+    // add a polyline to give context
+    L.polyline (positions, {
+          color:        "#F00",
+          weight:       2,
+          opacity:      0.5,
+          smoothFactor: 1,
+          clickable:    false
+    }).addTo (map);
+
+    story.go(0);
+  });
