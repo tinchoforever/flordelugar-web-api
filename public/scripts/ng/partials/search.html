@@ -1,9 +1,18 @@
-<div class="centered">
-<h1><strong>Caminar Buenos Aires<strong> </h1>
+<div class="header wow fadeIn animated centered">
+	<h1>Caminar Buenos Aires</h1>
+	
+
+
+	<hr/>
+</div>
+
+<div class="wow fadeIn animated centered">
+	<h3>Proba alguno de los recorridos</h3>
+	
 </div>
 <autocomplete class="search-bar" 
 	ng-model="seleccion"
-	attr-placeholder="Seleccione el Recorrido" 
+	attr-placeholder="¿Qué lugares recorres habitualmente?" 
 	></autocomplete>
 <div class="client-row wow fadeIn animated" ng-repeat="c in recorridos | filter:seleccion">
 	<div 
