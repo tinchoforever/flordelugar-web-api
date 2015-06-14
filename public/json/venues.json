@@ -59,7 +59,8 @@
       "name": "Iconico"
     }
   ]
-},{
+},
+{
   "id": 3,
     "name": "Estudios Canal 7 Argentina",
     "location": {
@@ -85,7 +86,8 @@
       "name": "Cultura"
     }
   ]
-},{
+},
+{
   "id": 4,
     "name": "Palais de Glace",
     "location": {
@@ -113,8 +115,8 @@
 	
     
   ]
-}
-,{
+},
+{
   "id": 5,
     "name": "Centro Cultural Recoleta",
     "location": {
@@ -206,8 +208,7 @@
     }
 	   
   ]
-}
-,
+},
 {
   "id": 8,
     "name": "Cementerio de Recoleta",
@@ -272,8 +273,7 @@
     }
 	   
   ]
-}
-,
+},
 {
   "id": 10,
     "name": "Palacio de Aguas Corrientes",
@@ -300,8 +300,7 @@
       "name": "Histórico"
     }
   ]
-}
-,
+},
 {
   "id": 11,
     "name": "Palacio Congreso de la Nación",
@@ -328,8 +327,7 @@
       "name": "Histórico"
     }
   ]
-}
-,
+},
 {
   "id": 12,
     "name": "Palacio de la Legislatura",
@@ -356,8 +354,7 @@
       "name": "Histórico"
     }
   ]
-}
-,
+},
 {
   "id": 13,
     "name": "Palacio Barolo",
@@ -384,8 +381,7 @@
       "name": "Histórico"
     }
   ]
-}
-,
+},
 {
   "id": 14,
     "name": "Palacio Municipal",
