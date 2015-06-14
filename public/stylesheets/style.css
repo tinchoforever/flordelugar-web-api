@@ -61,8 +61,8 @@ path.color1 {
 }
 
 .client-row {
-  max-width: 25%;
-  min-width: 25%;
+  max-width: 100%;
+  min-width: 100%;
 
   text-align: center;
   display: inline-block;
@@ -77,4 +77,25 @@ path.color1 {
 img.pic {
   min-width: 200px;
   max-width: 275px;
+}
+
+
+.client-lineup-container {
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+.client-row .description{
+	  text-align: left;
+	  display: table;
+	  width: 100%;
+	  padding-left: 2em;
+}
+
+.description h3{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1em;
+  padding-top: 0;
+   padding-bottom: 0; 
 }

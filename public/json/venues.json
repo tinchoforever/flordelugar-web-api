@@ -413,7 +413,6 @@
     }
   ]
 },
-,
 {
   "id": 15,
     "name": "Palacio Duhau",
@@ -441,7 +440,6 @@
     }
   ]
 },
-,
 {
   "id": 16,
     "name": "Palacio Fernandez Anchorena",
@@ -468,8 +466,7 @@
       "name": "Histórico"
     }
   ]
-}
-,
+},
 {
   "id": 17,
     "name": "Palacio Pizurno",
@@ -496,8 +493,7 @@
       "name": "Histórico"
     }
   ]
-}
-,
+},
 {
   "id": 18,
     "name": "Palacio Estrugamou",
@@ -524,8 +520,7 @@
       "name": "Histórico"
     }
   ]
-}
-,
+},
 {
   "id": 19,
     "name": "Palacio San Martin",
@@ -552,8 +547,7 @@
       "name": "Histórico"
     }
   ]
-}
-,
+},
 {
   "id": 20,
     "name": "Palacio Errazuriz",
