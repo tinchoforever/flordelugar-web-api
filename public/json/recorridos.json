@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"name": "Arquitectura Recoleta",
+		"name": "Arquitectura por César Pelli",
 		"description": "El recorrido del Barrio de Recoleta. ",
 		"total_km": 2.5,
 		"conversion": [{
@@ -15,7 +15,7 @@
 	},	
 	{
 		"id": 2,
-		"name": "Recorrido Sugerido para puntos Culturales",
+		"name": "Puntos Culturales por Vecinos Recoleta",
 		"description": "Sitios Culturales del Barrio de Recoleta",
 		"total_km": 1.6,
 		"conversion": [{
@@ -31,7 +31,7 @@
 	},
 	{
 		"id": 3,
-		"name": "Recorrido 3",
+		"name": "Iconos por Embajada Francia",
 		"description": "Recorrido Sugerido para puntos Iconicos",
 		"total_km": 5,
 		"conversion": [{

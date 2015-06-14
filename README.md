@@ -41,3 +41,7 @@ $ npm install
 ```bash
 $  npm start
 ```
+
+Libs
+========
+https://github.com/CartoDB/odyssey.js
