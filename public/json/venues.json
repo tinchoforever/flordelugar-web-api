@@ -10,9 +10,9 @@
     "comuna": 2
   },
   "description": "Su fachada respeta los principios clasicistas y cuenta en el lateral derecho con una doble espadaña, única en la Ciudad. La capilla lateral izquierda alberga la imagen de San Pedro Alcántara, fundador de la orden de los recoletos. Aún se conservan numerosos elementos de culto de los primeros monjes que se exhiben en un pequeño museo ubicado junto a la iglesia. Fue elevada al rango de Basílica por el Papa Pío XI y, posteriormente, declarada Monumento Histórico Nacional en 1942. Nota de accesibilidad: dentro de la Basílica pueden visitarse los claustros históricos pero estos no son accesibles para personas con discapacidad motora. Dirección: Junín 1904",
-    "assets": {
+  "assets": {
     "image": "http://caminando.herokuapp.com/fotos/basilica_nuestra_senora_del_pilar.jpg",
-    "audio": ""
+    "audio": "http://caminando.herokuapp.com/audioguias/basilica_pilar.mp3"
   },
   "tags": [
     {
