@@ -92,7 +92,7 @@ var defaultIcon = L.icon({
             .setContent(
               "<h1>"+ stop.name + "</h1>" + 
               "<img src='" +  stop.assets.image+ "'></img>" +
-              "<audio autoplay src='" + stop.assets.audio+ "'></audio>"+
+              "<audio controls='controls' autoplay src='" + stop.assets.audio+ "'></audio>"+
               "<p>" + stop.description + "</p>"
               )
             .actions.openClose(map)

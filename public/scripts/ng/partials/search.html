@@ -1,18 +1,20 @@
 <div class="centered">
-<h1> Caminar Buenos Aires </h1>
+<h1><strong>Caminar Buenos Aires<strong> </h1>
 </div>
 <autocomplete class="search-bar" 
 	ng-model="seleccion"
 	attr-placeholder="Seleccione el Recorrido" 
 	></autocomplete>
-<div class="client-row" ng-repeat="c in recorridos | filter:seleccion">
+<div class="client-row wow fadeIn animated" ng-repeat="c in recorridos | filter:seleccion">
 	<div 
 	ng-style="{'background-image':'url('+ c.assets.image +')'}"
-		 class="client-lineup-container wow fadeIn animated">
+		 class="client-lineup-container ">
 		<div class="description">
 			<h3>
 				<a class="white" ng-click="gotoRecorrido(c)" href="">{{c.name}}</a>
+
 			</h3>
+			<h5> {{c.total_timepo}} min |  {{c.total_km}} kms </h5> 
 		</div>
 	</div>
 	
