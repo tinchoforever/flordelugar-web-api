@@ -30,7 +30,7 @@ var defaultIcon = L.icon({
         $('#error').show();
         return;
       }
-
+    $('.title').html(recorrido.name);
     $.getJSON('/json/venues.json', function(d) {
 
       data = [];
