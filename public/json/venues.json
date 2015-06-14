@@ -1,5 +1,5 @@
 [{
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 1,
     "name": "Basilica Nuestra Señora del Pilar",
     "location": {
     "lat": -34.586544,
@@ -26,7 +26,7 @@
   ]
 },
 {
-  "id": "557c3d56398e42723d91f6b3",
+  "id": 2,
   "name": "Biblioteca Nacional",
   "location": {
   "lat": -34.5843977,
@@ -60,7 +60,7 @@
     }
   ]
 },{
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 3,
     "name": "Estudios Canal 7 Argentina",
     "location": {
     "lat": -34.580982,
@@ -86,7 +86,7 @@
     }
   ]
 },{
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 4,
     "name": "Palais de Glace",
     "location": {
     "lat": -34.5874595,
@@ -115,7 +115,7 @@
   ]
 }
 ,{
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 5,
     "name": "Centro Cultural Recoleta",
     "location": {
     "lat": -34.5861368,
@@ -147,7 +147,7 @@
   ]
 },
 {
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 6,
     "name": "Floralis Generica",
     "location": {
     "lat": -34.581675,
@@ -176,7 +176,7 @@
   ]
 },
 {
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 7,
     "name": "Facultad de Derecho",
     "location": {
     "lat": -34.582821,
@@ -209,7 +209,7 @@
 }
 ,
 {
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 8,
     "name": "Cementerio de Recoleta",
     "location": {
     "lat": -34.583989,
@@ -242,7 +242,7 @@
 }
 ,
 {
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 9,
     "name": "Museo de Bellas Artes",
     "location": {
     "lat": -34.583989,
