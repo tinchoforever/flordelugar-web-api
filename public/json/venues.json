@@ -1,5 +1,5 @@
 [{
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 1,
     "name": "Basilica Nuestra Señora del Pilar",
     "location": {
     "lat": -34.586544,
@@ -26,7 +26,7 @@
   ]
 },
 {
-  "id": "557c3d56398e42723d91f6b3",
+  "id": 2,
   "name": "Biblioteca Nacional",
   "location": {
   "lat": -34.5843977,
@@ -60,7 +60,7 @@
     }
   ]
 },{
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 3,
     "name": "Estudios Canal 7 Argentina",
     "location": {
     "lat": -34.580982,
@@ -72,8 +72,8 @@
   },
   "description": "El edificio de ATC, denominado originalmente Centro de Producción de Televisión Buenos Aires, fue construido como parte de las obras llevadas a cabo en ocasión del Campeonato Mundial de Fútbol 1978, realizado en Argentina. En este Centro se generaron las imágenes en blanco y negro y en color de los partidos de fútbol transmitidos a Europa, América, África, Asia y Oceanía. Finalizado el campeonato, el complejo fue otorgado a Canal 7, que cambió su imagen bajo el nombre de Argentina Televisora Color (ATC). Canal 7 es el único canal público en la órbita del Estado y con cobertura nacional.",     
   "assets": {
-    "image": "link",
-    "audio": "link"
+    "image": "http://caminando.herokuapp.com/fotos/canal7.jpg",
+    "audio": "http://caminando.herokuapp.com/audioguias/canal_7.mp3"
   },
   "tags": [
     {
@@ -86,7 +86,7 @@
     }
   ]
 },{
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 4,
     "name": "Palais de Glace",
     "location": {
     "lat": -34.5874595,
@@ -98,8 +98,8 @@
   },
   "description": "Fue inaugurado en 1910 para albergar una pista de hielo de 21 metros de diámetro, como parte de un club que nucleaba a algunas de las familias adineradas de la ciudad. Tiempo después fue convertido en un salón de baile, por donde pasaron muchas de las grandes orquestas de tango de la década de 1920.En 1931 el Municipio de la Ciudad cede el predio al Ministerio de Educación y Justicia de la Nación, que lo convierte en sede de la Dirección Nacional de Bellas Artes. Entre 1932 el edificio fue remodelado por obra del arquitecto Alejandro Bustillo, perdiendo la mayor parte de su ornamentación exterior y una cúpula, y siendo modificado en su distribución interna.",     
   "assets": {
-    "image": "link",
-    "audio": "link"
+    "image": "http://caminando.herokuapp.com/fotos/palais_glace.jpg",
+    "audio": "http://caminando.herokuapp.com/audioguias/Palais_de_Glace.mp3"
   },
   "tags": [
     {
@@ -115,7 +115,7 @@
   ]
 }
 ,{
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 5,
     "name": "Centro Cultural Recoleta",
     "location": {
     "lat": -34.5861368,
@@ -127,8 +127,8 @@
   },
   "description": "El Centro Cultural Recoleta (en un comienzo llamado Centro Cultural Ciudad de Buenos Aires) es un centro de exposiciones ubicado en el barrio de Recoleta, en la Ciudad de Buenos Aires. Fue declarado Monumento Histórico Nacional y forma parte de un polo de atractivos turísticos y de esparcimiento, junto al Cementerio de la Recoleta y la Plaza Intendente Alvear. Ocupa el edificio del antiguo Asilo General Viamonte, y se trata de uno de los espacios culturales de mayor importancia de la ciudad.",     
   "assets": {
-    "image": "link",
-    "audio": "link"
+    "image": "http://caminando.herokuapp.com/fotos/centro_cultural_recoleta.jpg",
+    "audio": "http://caminando.herokuapp.com/audioguias/Centro_Cultural_Recoleta.mp3"
   },
   "tags": [
     {
@@ -147,7 +147,7 @@
   ]
 },
 {
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 6,
     "name": "Floralis Generica",
     "location": {
     "lat": -34.581675,
@@ -159,8 +159,8 @@
   },
   "description": "La escultura de 20 metros de altura que domina la plaza Naciones Unidas fue donada a la Ciudad de Buenos Aires por su autor, el arquitecto argentino Eduardo Catalano. Está realizada en acero inoxidable y aluminio y pesa 18 toneladas. Es la primera escultura en movimiento controlada por un sistema hidráulico y células fotoeléctricas. Los pétalos se abren de día y se cierran de noche. La obra se inauguró en el año 2002 y su nombre, Floralis Genérica, es un homenaje a todas las flores.",     
   "assets": {
-    "image": "link",
-    "audio": "link"
+    "image": "http://caminando.herokuapp.com/fotos/flor.JPG",
+    "audio": "http://caminando.herokuapp.com/audioguias/Floralis_Generis.mp3"
   },
   "tags": [
     {
@@ -176,7 +176,7 @@
   ]
 },
 {
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 7,
     "name": "Facultad de Derecho",
     "location": {
     "lat": -34.582821,
@@ -188,8 +188,8 @@
   },
   "description": "El edificio de la Facultad de Derecho, que data del año 1949, es el resultado de un concurso de anteproyectos adjudicado a los arquitectos Arturo Ochoa, Ismael Chiapore y Pedro Vivent. Cuenta con un museo, una pinacoteca y una biblioteca especializada. En su interior, en el salón de actos, se destaca un óleo de grandes dimensiones del artista Antonio González Moreno, que describe la ceremonia de inauguración de la Universidad de Buenos Aires.",
   "assets": {
-    "image": "link",
-    "audio": "link"
+    "image": "http://caminando.herokuapp.com/fotos/facultad_de_derecho.jpg",
+    "audio": "http://caminando.herokuapp.com/audioguias/Facultad_de_Derecho.mp3"
   },
   "tags": [
     {
@@ -209,7 +209,7 @@
 }
 ,
 {
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 8,
     "name": "Cementerio de Recoleta",
     "location": {
     "lat": -34.583989,
@@ -221,8 +221,8 @@
   },
   "description": "Los frailes de la orden de los recoletos descalzos llegaron a esta zona, entonces en las afueras de Buenos Aires, a principios del siglo XVIII. Construyeron en el lugar un convento y una iglesia, en 1732, que colocaron bajo la advocación de la Virgen del Pilar . Actualmente la Basílica de Nuestra Señora del Pilar es un Monumento Histórico Nacional. Los lugareños terminaron denominando a la iglesia de los recoletos en simplemente la Recoleta , nombre que se extendió a toda la zona. Cuando la orden fue disuelta en 1822, el 17 de noviembre [1] de ese año, la huerta del convento fue convertida en el primer cementerio público de la Ciudad de Buenos Aires. Los responsables de su creación fueron el entonces gobernador de la provincia de Buenos Aires Martín Rodríguez (sus restos descansan en el Cementerio) y su ministro de Gobierno, Bernardino Rivadavia",
   "assets": {
-    "image": "link",
-    "audio": "link"
+    "image": "http://caminando.herokuapp.com/fotos/Cementerio_de_la_Recoleta.jpg",
+    "audio": "http://caminando.herokuapp.com/audioguias/Cementerio_Recoleta.mp3"
   },
   "tags": [
     {
@@ -242,7 +242,7 @@
 }
 ,
 {
-  "id": "557c3d56498e42723d91f5b3",
+  "id": 9,
     "name": "Museo de Bellas Artes",
     "location": {
     "lat": -34.583989,
@@ -254,8 +254,8 @@
   },
   "description": "El museo fue inaugurado el 25 de diciembre de 1896. Su patrimonio cuenta con más de 9.000 piezas de arte internacional y argentino, entre las que se encuentran obras de Tiépolo, Greco, Goya, Rodin, Manet, Monet, Van Gogh, Degas, De Chirico, Kandinsky, Picasso, Tàpies. Arte argentino: piezas de Morel, Pueyrredón, de la Cárcova, Sívori, Malharro, Fader, Guttero, Curatella Manes, Petorutti, Quinquela Martín, Berni, Spilimbergo, Deira, Distéfano, Alonso, Benedit y Seguí, entre otros. Su patrimonio incluye obras de arte internacionales y argentino desde la Edad Media hasta el Siglo XX.",
   "assets": {
-    "image": "link",
-    "audio": "link"
+    "image": "http://caminando.herokuapp.com/fotos/bellas_artes.jpg",
+    "audio": "http://caminando.herokuapp.com/audioguias/museo_de_bellas_artes.mp3"
   },
   "tags": [
     {
