@@ -49,15 +49,15 @@ var defaultIcon = L.icon({
             .addTo(map)
             .actions.toggleStyle(disabledStyle, enabledStyle),
           O.Sleep(500),
-          new L.DirectionalPopup({
-            closeButton: false,
-            className: 'odyssey-popup-lateral',
-            offset:[30, 0],
+          new L.Popup({
+            closeButton: true,
+            className: 'odyssey-popup-lateral wow fadeIn animated',
+            offset:[300, 200],
             position: 'right'
           })
           .setLatLng(pos)
           .setContent(
-            "<h1>" + stop.name + "</h1>" + 
+            "<h1>(" + stop.id+ ") - " + stop.name + "</h1>" + 
             "<img src='" +  stop.assets.image+ "'></img>" +
             "<audio autoplay src='" + stop.assets.audio+ "'></audio>"+
             "<p>" + stop.description + "</p>"

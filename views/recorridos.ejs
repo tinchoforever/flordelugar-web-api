@@ -1,60 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Leaflet Quick Start Guide Example</title>
+  <title>Caminos BA - Recorridos Interactivos</title>
   <meta charset="utf-8" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+  <link href='http://fonts.googleapis.com/css?family=OpenSans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-  <style>
-    html,body {
-      text-align: center;
-      margin: 0; padding: 0;
-      font-family: Georgia;
-      background: #EEE;
-      height: 100%;
-    }
-    #map { width: 100%; height: 100%}; 
-
-    .odyssey-popup-lateral 
-    .leaflet-popup-content-wrapper {
-      background: none;
-      box-shadow:none;
-      text-align: left;
-      border-top: 3px solid #000;
-      border-radius: 0;
-    }
-    .odyssey-popup-lateral 
-    .leaflet-popup-tip-container {
-      display:none;
-    }
-
-    .odyssey-popup-lateral 
-    .leaflet-popup-content {
-      margin: 0;
-    }
-
-    
-  </style>
+  <link rel="stylesheet" href="/stylesheets/recorridos.css" />
+  <link rel="stylesheet" type="text/css" href="/bower_components/wow/css/libs/animate.css"/>
+  
 </head>
 <body>
  <div id="map"> </div>
-
+  <script src="/bower_components/wow/dist/wow.min.js"></script>
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
   <script src="/dist/odyssey.js" charset="UTF-8"></script>
   <script>
+  $(document).ready(function(){
+    new WOW().init();
+
+  });
     var recorrido = <%= id %>;
 
   </script>
-  <script src="/scripts/oddisey-client.js">
-
-
-
-                                                  
-
-  </script>
+  <script src="/scripts/oddisey-client.js"></script>
 </body>
 </html>
 
