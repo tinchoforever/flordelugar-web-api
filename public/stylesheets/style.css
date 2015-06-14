@@ -8,9 +8,12 @@ body{
   	color:white;
 }
 .header h1{
-	padding-top:2em;
-	padding-bottom:1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 
+}
+.header img {
+	  width: 325px;
 }
 .header h4{
 	
