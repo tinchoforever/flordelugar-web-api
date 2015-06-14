@@ -24,6 +24,8 @@ myApp.controller('HomeController', function($scope,$rootScope,$location, $http){
           console.log(data);
           for (var i = 0; i < data.length; i++) {
             var d = data[i]; 
+            d.assets = {}
+            d.assets.image = "http://www.todobuenosaires.com/images/lugares/recoleta/gr/florsolar02.jpg";
             
           };
         $scope.recorridos = data;
@@ -34,6 +36,10 @@ myApp.controller('HomeController', function($scope,$rootScope,$location, $http){
 
     
 });
+
+    
+
+
 myApp.controller('RecorridosController', function($scope,$rootScope,$routeParams, $location, $http){
 
 
@@ -47,7 +53,6 @@ myApp.controller('RecorridosController', function($scope,$rootScope,$routeParams
         
 
 });
-
 
 
 
