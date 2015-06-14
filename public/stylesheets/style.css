@@ -11,6 +11,9 @@ body{
   padding-top: 0.3em;
 
 }
+.header a{
+	color:white;
+}
 .header img {
 	  width: 325px;
 }
