@@ -45,3 +45,34 @@ $  npm start
 Libs
 ========
 https://github.com/CartoDB/odyssey.js
+
+
+Equipo
+=========
+
+=Idea Original=
+- Dirección General de Movilidad Saludable
+- Alfredo Sayus
+- Nicolás Castillo
+
+=Implementación=
+- Leandro Cura - Programador
+- Ignacio Saslavsky - Programador
+- Martín Rabaglia - Ingeniero
+- Natalia Delgado Deus - Diseñadora
+- Lucas Rudi - Programador
+- David Galavotti - Diseñador
+- Leandro Glossman - Programador
+- Guillermo Mesyngier - Diseñador
+- Fernando Mirabelli - Programador 
+
+=Investigación y recopilación de contenidos=
+- Teodoro Aguer - Profesor de Educación Física
+- María de los Ángeles Mendoza - Licenciada en Comunicación
+- Cecilia Hermida - 
+- Sebastián Gagin - Diseñador gráfico
+- Rodrigo Oshiro - Promoción Movilidad Saludable
+- Camila Cifuentes - Comunicación Subsecretaría de Transporte
+- Sol Mountford - Gerente Promoción Movilidad Saludable
+- Paula Bisiau - Directora de Movilidad Saludable
+
