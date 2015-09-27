@@ -1,4 +1,4 @@
-# Caminando Buenos Aires
+# Flor de Lugar - Caminando Buenos Aires
 ## Proyecto para Hackaton Buenos Aires 2015 
 
 ¿Como podemos hacer que la gente camine mas?
