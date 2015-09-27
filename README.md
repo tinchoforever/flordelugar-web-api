@@ -50,31 +50,70 @@ https://github.com/CartoDB/odyssey.js
 Equipo
 =========
 
-=Idea Original=
+
+# Flor de Lugar
+
+La Ciudad de Buenos Aires está cambiando su perfil urbano con el objetivo de mejorar la calidad de vida de las millones de personas que diariamente la transitan. En la práctica, esta gran transformación implica, entre otros cambios, un rediseño del espacio para darle prioridad a las personas y a los medios de movilidad saludable, promoviendo usos compartidos y sustentables del espacio público. 
+
+La movilidad peatonal está siendo especialmente impulsada a través de la transformación del Microcentro de la Ciudad, restringiendo el uso del auto y convirtiendo las angostas calles de circulación de vehículos en calles de convivencia. 
+
+## ¿Cómo logramos que más personas caminen por la Ciudad?
+
+Flor de Lugar es una plataforma colaborativa donde los vecinos de cada barrio nos cuentan cuáles son los lugares y circuitos más interesantes para conocer la Ciudad a pie. 
+Cada lugar y recorrido es ¨curado¨ por un vecino, institución o área de Gobierno que aporta una mirada diferente y especializada sobre la identidad del lugar. 
+
+Quienes ingresan al mapa pueden elegir su propia aventura: 
+
+- seleccionar el barrio y el recorrido
+- ajuste a su perfil según 
+  - categoría, 
+  - tema, 
+  - interés, 
+  - agenda cultural, 
+  - distancia y 
+  - tiempo disponible. 
+Este recorrido nos invita a conocer -y dar a conocer- cada rincón de Buenos Aires desde la mirada de sus expertos: los vecinos que la viven cada día.
+
+La Plataforma puede hacer sinergia con la Agenda Cultural de la Ciudad y trasladarse al territorio con la colaboración un grupo de voluntarios barriales a cargo de guiar recorridos específicos con cierta periodicidad sostenible en el tiempo.
+
+
+
+
+
+
+#Proximos Pasos
+- HyperLocal > Bajarse la info directamente en los barrios.
+- Compositor > App para documentar historias.
+- TIPS > Como caminar
+- Audios inspiracionales informativos.
+
+#Idea Original
 - Dirección General de Movilidad Saludable
 - Alfredo Sayus
 - Nicolás Castillo
 
-=Implementación=
+#Implementación
 - Leandro Cura - Programador
 - Ignacio Saslavsky - Programador
 - Martín Rabaglia - Ingeniero
 - Natalia Delgado Deus - Diseñadora
 - Lucas Rudi - Programador
 - David Galavotti - Diseñador
-- Leandro Glossman - Programador
-- Guillermo Mesyngier - Diseñador
-- Fernando Mirabelli - Programador 
+- Guillermo Mesyngier - Programador
+- Leandro Glossman - Diseñador
 
-=Investigación y recopilación de contenidos=
+#Investigación y recopilación de contenidos
+
 - Teodoro Aguer - Profesor de Educación Física
 - María de los Ángeles Mendoza - Licenciada en Comunicación
+- Fernando Mirabelli - 
 - Cecilia Hermida - 
 - Sebastián Gagin - Diseñador gráfico
 - Rodrigo Oshiro - Promoción Movilidad Saludable
 - Camila Cifuentes - Comunicación Subsecretaría de Transporte
 - Sol Mountford - Gerente Promoción Movilidad Saludable
 - Paula Bisiau - Directora de Movilidad Saludable
+
 
 
 Backlog
